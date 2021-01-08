@@ -25,12 +25,7 @@ ul{
     z-index: 1000;
     background: #FFFFFF;
     box-shadow: 2.3px 0px 6px rgba(94, 108, 132, 0.15);
-    /* box-shadow:0 0 1px grey ;  */
-    /* z-index: 1000; */
-    /* position:fixed; */
-    /* background-color: #fff; */
     padding: 30px 20px;
-    /* padding-right: -50px; */
 }
 #logo{
     margin-left: 20px;
@@ -221,7 +216,7 @@ h6 {
   
   /* Track */
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
+    box-shadow: inset 0 0 5px rgb(238, 236, 236); 
     border-radius: 10px;
 }
    
@@ -414,7 +409,7 @@ input:checked + .slider:before {
     padding: 15px;
     display: inline-block;
 }
-.pd, #Internship{
+.pd, #Internship,#Sub-Engineer-1{
     margin-bottom: 300px;
     padding: 10px;
     border-radius: 5px;
@@ -444,7 +439,7 @@ input:checked + .slider:before {
     font-weight: 500;
 }
 
-.input-div label, .input-div-1 label,#Internship label,#internship label {
+.input-div label, .input-div-1 label,#Internship label,#Sub-Engineer-1 label,#internship label {
     margin: 10px;
     color: rgb(161, 171, 204) ;
     font-size: 13px;
@@ -476,7 +471,7 @@ input:checked + .slider:before {
 
 
 .company-level .one{
-    padding: 0px 8px;
+    padding: 0px 60px 0px 8px;
 }
 #cl-first-row .um-main-text img{
     color: #fff;
@@ -498,7 +493,12 @@ input:checked + .slider:before {
 #Internship input,
 #Internship select,
 #internship select,
-#internship input{
+#internship input,
+#Sub-Engineer-1 input,
+#Sub-Engineer-1 select,
+#Sub-Engineer-1 select,
+#Sub-Engineer-1 input
+{
     width: 150px;
     margin-bottom: 9px;
     padding-bottom: 3px;
