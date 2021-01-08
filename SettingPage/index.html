@@ -138,10 +138,10 @@
             <div class="row" id="row-2">
                 <!--------------------PAYROLL SETTING TABS STARTS---------------------------------->
                 <div class="col-md-3" id="tab-list">
-                    <ul id = "myTab"  class = "nav nav-tabs">
+                    <ul id = "myTab"  class = "nav nav-tabs" role="tablist">
                  
-                        <li class="active-1">
-                            <a href="#um" class="" data-toggle = "tab">
+                        <li class="">
+                            <a href="#um" class="nav-link" data-toggle = "tab">
                                 <div class="tab-list-item">
                                     <div class="tab-img">
                                         <img src="./images/usermanagericon.svg"/>
@@ -156,8 +156,8 @@
                             <hr class="hr-line"/>
                         </li>
                         
-                        <li>
-                            <a href="#mp" class="" data-toggle = "tab">
+                        <li class="">
+                            <a href="#mp" class="nav-link" data-toggle = "tab">
                                 <div class="tab-list-item">
                                     <div class="tab-img">
                                         <img src="./images/managepayrollicon.svg"/>
@@ -172,8 +172,8 @@
                             <hr class="hr-line"/>
                         </li>
                         
-                        <li>
-                            <a href="#pb" class="" data-toggle = "tab">
+                        <li class="">
+                            <a href="#pb" class="nav-link" data-toggle = "tab">
                                 <div class="tab-list-item">
                                     <div class="tab-img">
                                         <img src="./images/planbillingicon.svg"/>
@@ -188,8 +188,8 @@
                             <hr class="hr-line"/>
                         </li> 
 
-                        <li>
-                            <a href="#mc" class="" data-toggle = "tab">
+                        <li class="">
+                            <a href="#mc" class="nav-link" data-toggle = "tab">
                                 <div class="tab-list-item">
                                     <div class="tab-img">
                                         <img src="./images/managecompanyicon.svg"/>
@@ -211,7 +211,7 @@
                 <section id = "myTabContent" class="tab-content col-md-8">
 
                     <!--------------------USER MANAGEMENT STARTS---------------------------------->
-                     <div class = "tab-pane fade row" id="um">
+                     <div class = "tab-pane fade row" id="um" role="tabpanel">
                                 <div class="um row">
                                     <div class="um-main-text">
                                         <h6>User Management</h6>
@@ -228,7 +228,7 @@
                                     <div class="col-md-5" id="myTab-head">
                                         <ul  id = "myTab-2"  class = "nav nav-tabs">
                                             <li >
-                                              <a href="#SS" data-toggle = "tab" class="admins">
+                                              <a href="#SS" data-toggle = "tab" class="nav-link admins">
                                                 <div class="one">
                                                     <h6>Shirly Singley </h6>
                                                     <p>debra.holt@example.com</p>
@@ -240,7 +240,7 @@
                                             </li>
     
                                             <li >
-                                                <a href="#IM" data-toggle = "tab" class="admins">
+                                                <a href="#IM" data-toggle = "tab" class="nav-link admins">
                                                     <div class="one">
                                                         <h6>Irving Merida </h6>
                                                         <p>debra.holt@example.com</p>
@@ -252,7 +252,7 @@
                                             </li>
     
                                             <li >
-                                                <a href="#IR" data-toggle = "tab" class="admins">
+                                                <a href="#IR" data-toggle = "tab" class="nav-link admins">
                                                     <div class="one">
                                                         <h6>Isaura Resendiz </h6>
                                                         <p>debra.holt@example.com</p>
@@ -264,7 +264,7 @@
                                             </li>
     
                                             <li >
-                                                <a href="#DL" data-toggle = "tab" class="admins">
+                                                <a href="#DL" data-toggle = "tab" class="nav-link admins">
                                                     <div class="one">
                                                         <h6>Darrick Larin </h6>
                                                         <p>debra.holt@example.com</p>
@@ -276,7 +276,7 @@
                                             </li>
     
                                             <li >
-                                                <a href="#LW" data-toggle = "tab" class="admins">
+                                                <a href="#LW" data-toggle = "tab" class="nav-link admins">
                                                     <div class="one">
                                                         <h6>Lavonda Woolbright </h6>
                                                         <p>debra.holt@example.com</p>
@@ -515,7 +515,7 @@
 
 
                       <!--------------------MANAGE PAYROLL STARTS---------------------------------->
-                    <div class = "tab-pane fade" id="mp">
+                    <div class = "tab-pane fade" id="mp" role="tabpanel">
                         <div class="row" >
                             <div class="">
                                 <div class="">
@@ -633,7 +633,7 @@
 
 
                     <!--------------------PLAN & BILLING STARTS---------------------------------->
-                    <div class = "tab-pane fade" id="pb">
+                    <div class = "tab-pane fade" id="pb" role="tabpanel">
                         <div id="">
                             <div class="">
                                 <div class="pd">
@@ -676,22 +676,22 @@
 
 
                         <!--------------------MANAGE COMPANY STARTS---------------------------------->
-                    <div class = "tab-pane fade" id="mc">
+                    <div class = "tab-pane fade" id="mc" role="tabpanel">
                         <div class="row">
                                     <div class="row mcTab">
                                         <ul id = "mcTab" class = "nav navbar nav-tabs">
                                             <li class = "active">
-                                               <a href = "#BI" data-toggle = "tab">
+                                               <a href = "#BI" data-toggle = "tab" class="nav-link">
                                                   Basic Information
                                                </a>
                                             </li>
-                                            <li><a href = "#CL" data-toggle = "tab">Company Level</a></li>
-                                            <li><a href = "#JT" data-toggle = "tab">Job Title</a></li>
+                                            <li><a href = "#CL" data-toggle = "tab" class="nav-link">Company Level</a></li>
+                                            <li><a href = "#JT" data-toggle = "tab" class="nav-link">Job Title</a></li>
                                         </ul>
                                         
                                     </div>
                                     <hr>
-                                    <div class="tab-content" id="mcTab">                  
+                                    <div class="tab-content" id="">                  
                                         <div class = "tab-pane fade" id = "BI">
                                               <div class="row">
                                                 <div class="col-md-6">
@@ -776,7 +776,7 @@
                                             <div class="col-md-4" id="myTab-head">
                                                 <ul  id = "myTab-2-1"  class = "nav nav-tabs">
                                                     <li >
-                                                    <a href="#Manager" data-toggle = "tab" class="admins company-level">
+                                                    <a href="#Manager" data-toggle = "tab" class="nav-link admins company-level">
                                                         <div class="one">
                                                             <h6>Manager</h6>
                                                             <p>Net Pay<span>₦145,000.00</span></p>
@@ -785,7 +785,7 @@
                                                     </li>
 
                                                     <li >
-                                                        <a href="#Sub-Engineer" data-toggle = "tab" class="admins company-level">
+                                                        <a href="#Sub-Engineer" data-toggle = "tab" class="nav-link admins company-level">
                                                             <div class="one">
                                                                 <h6>Sub-Engineer</h6>
                                                                 <p>Net Pay<span>₦145,000.00</span></p>
@@ -794,7 +794,7 @@
                                                     </li>
 
                                                     <li >
-                                                        <a href="#Manager" data-toggle = "tab" class="admins company-level">
+                                                        <a href="#Manager-1" data-toggle = "tab" class="nav-link admins company-level">
                                                             <div class="one">
                                                                 <h6>Manager</h6>
                                                                 <p>Net Pay<span>₦145,000.00</span></p>
@@ -901,10 +901,9 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class = "tab-pane fade" id="IM">IM</div>
-                                                <div class = "tab-pane fade" id="LW">LW</div>
-                                                <div class = "tab-pane fade" id="DL">DL</div>
-                                                <div class = "tab-pane fade" id="IR">IR</div>
+                                                <div class = "tab-pane fade" id="Manager-1">Second Manager</div>
+                                                <div class = "tab-pane fade" id="Sub-Engineer">Sub-Engineer</div>
+                                                
                                             </div>
                                         </div>    
                                     </div>
@@ -927,7 +926,7 @@
                                             <div class="col-md-4" id="myTab-head">
                                                 <ul  id = "myTab-3"  class = "nav nav-tabs">
                                                     <li >
-                                                    <a href="#Internship" data-toggle = "tab" class="admins company-level">
+                                                    <a href="#Internship" data-toggle = "tab" class="nav-link admins company-level">
                                                         <div class="one">
                                                             <h6>Internship</h6>
                                                             <p>Level<span> Sub-Engineer</span></p>
@@ -936,7 +935,7 @@
                                                     </li>
 
                                                     <li >
-                                                        <a href="#Sub-Engineer-1" data-toggle = "tab" class="admins company-level">
+                                                        <a href="#Sub-Engineer-1" data-toggle = "tab" class="nav-link admins company-level">
                                                             <div class="one">
                                                                 <h6>Sub-Engineer</h6>
                                                                 <p>Net Pay<span>Manager</span></p>
@@ -1009,7 +1008,23 @@
                                                         
                                                     </div>
                                                 </div>
-                                                <div class = "tab-pane fade" id="Sub-Engineer-1">IM</div>
+                                                <div class = "tab-pane fade" id="Sub-Engineer-1">
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <label for="title">Title</label>
+                                                            <input type="text" id="title" placeholder="Security Guard">
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <label for="level">Level</label>
+                                                            <select name="level" id="level">
+                                                                <option value="" disabled selected>Select Level</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div >
+                                                        
+                                                    </div>
+                                                </div>
                                                 <button class="btn btn-primary">
                                                     Save Settings
                                                 </button>

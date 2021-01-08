@@ -19,12 +19,13 @@ ul{
     padding-inline-start: 0px;
 }
 .sidebar{
-    box-shadow:0 0 1px grey ; 
+    position: fixed;
+    height: 100vh;
+    width: 300px;
     z-index: 1000;
-    position:fixed;
-    background-color: #fff;
+    background: #FFFFFF;
+    box-shadow: 2.3px 0px 6px rgba(94, 108, 132, 0.15);
     padding: 30px 20px;
-    padding-right: -50px;
 }
 #logo{
     margin-left: 20px;
@@ -41,7 +42,7 @@ ul{
 }
 .rest{
     margin-left: 24.5%;
-    padding: 20px 40px;
+    padding: 20px 20px;
     /* background-color:rgb(241, 240, 245); */
 }
 .active-tab::after{
@@ -72,13 +73,13 @@ ul{
 
 #tab-list{
     margin-right: 20px;
-    max-height: 260px;
+    max-height: 20px;
     padding: 0px;
     border-radius: 15px;
     background-color: #fff;
 }
 #tab-list a{
-    color: black !important;
+    color: black ;
 }
 
 .tab-list-item div{
@@ -120,10 +121,29 @@ h6 {
     width: 100%;
 }
 
-.active-1{
-   
+/* .active-1, */
+.nav-link.active{
+    /* color: darkblue !important; */
+    background-color:rgb(231, 237, 248) !important;
+    border: none !important;
+    border-radius: 5px 5px 0px 0px  !important;
+}
+#mcTab .nav-link.active, #mcTab .nav-link.active:hover{
     color: darkblue !important;
-    background-color:rgb(231, 237, 248);
+    background-color:white !important;
+    border-bottom: 2px solid #2B3A90 !important;
+    padding-bottom: 10px !important;
+    border-color: #fff #fff #fff;
+}
+#mcTab .nav-link:hover{
+  
+    border: none !important;
+   
+      
+} 
+.nav-link {
+    display: block;
+    padding: 0rem 0rem !important;
 }
 
 #um,#pb,#mp,#mc{
@@ -131,7 +151,9 @@ h6 {
     padding: 30px;
     border-radius: 10px;
 }
-
+.navbar{
+    padding: 0rem 1rem;
+}
 /* #um {
     padding: 30px;
     border-radius: 10px;
@@ -158,7 +180,10 @@ h6 {
     margin-right:5px;
     display: inline-table;
 }
-
+#myTab{
+    background-color: #fff;
+    border-radius: 10px;
+}
 #myTab-2 li,#myTab-2-1 li,#myTab-3 li{
     box-shadow:0 0 1px grey ;
     margin-bottom: 7px;
@@ -166,7 +191,7 @@ h6 {
     border-color: black !important;
     background-color: rgb(247, 249, 253);
     border-radius: 10px;
-    padding: 10px;
+    /* padding: 10px; */
 }
 #myTab-2,#myTab-2-1,#myTab-3{
     max-height: 300px;
@@ -191,7 +216,7 @@ h6 {
   
   /* Track */
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
+    box-shadow: inset 0 0 5px rgb(238, 236, 236); 
     border-radius: 10px;
 }
    
@@ -384,7 +409,7 @@ input:checked + .slider:before {
     padding: 15px;
     display: inline-block;
 }
-.pd, #Internship{
+.pd, #Internship,#Sub-Engineer-1{
     margin-bottom: 300px;
     padding: 10px;
     border-radius: 5px;
@@ -404,19 +429,17 @@ input:checked + .slider:before {
     border-width: 0px;
 }
 
-
-
 .mcTab li{
    
     display: inline-block;
-    margin-right: 88px;
+    margin-right: 85px;
 }
 .mcTab li a{
     color: black !important;
     font-weight: 500;
 }
 
-.input-div label, .input-div-1 label,#Internship label,#internship label {
+.input-div label, .input-div-1 label,#Internship label,#Sub-Engineer-1 label,#internship label {
     margin: 10px;
     color: rgb(161, 171, 204) ;
     font-size: 13px;
@@ -448,7 +471,7 @@ input:checked + .slider:before {
 
 
 .company-level .one{
-    padding: 0px 8px;
+    padding: 0px 60px 0px 8px;
 }
 #cl-first-row .um-main-text img{
     color: #fff;
@@ -470,7 +493,12 @@ input:checked + .slider:before {
 #Internship input,
 #Internship select,
 #internship select,
-#internship input{
+#internship input,
+#Sub-Engineer-1 input,
+#Sub-Engineer-1 select,
+#Sub-Engineer-1 select,
+#Sub-Engineer-1 input
+{
     width: 150px;
     margin-bottom: 9px;
     padding-bottom: 3px;
