@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Setting</title>
+</head>
+<body>
+    <div class="row">
+         <!-- ---------------------------------SIDEBAR STARTS ----------------------------------------->
+        <section class="col-md-3 sidebar">
+            <div id="logo">
+                <img src="./images/logo.svg" alt="logo">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li class="sidebar-list">
+                        <a href="/overview" class="menu_item">
+                            <p class="menu_text selected_margin"><img src="./images/overviewIcon.svg" alt="">Overview</p>
+                        </a>
+                    </li>
+
+                    <li class="sidebar-list">
+                        <a href="/dashboard" class="menu_item">
+                            <p class="menu_text selected_margin2"><img src="./images/dashboardIcon.svg" alt="">Dashboard</p>
+                        </a>
+                    </li>
+
+                    <li class="sidebar-list">
+                        <a href="/employee" class="menu_item">
+                            <p class="menu_text"> <img src="./images/employeeIcon.svg" alt="">Employee
+                                <i class="fa fa-angle-down"></i>
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="sidebar-list">
+                        <a href="/corehr" class="menu_item">
+                            <p class="menu_text"><img src="./images/corehrIcon.svg" alt="">Core Hr
+                                <i class="fa fa-angle-down"></i>
+                            </p>
+                        </a>
+                    </li>
+    
+                    <li class="sidebar-list">
+                        <a href="/payroll" class="menu_item">
+                            <p class="menu_text"><img src="./images/payrollIcon.svg" alt="">Payroll
+                                <i class="fa fa-angle-down"></i>
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="sidebar-list">
+                        <a href="/benefit" class="menu_item">
+                            <p class="menu_text"><img src="./images/benefitsIcon.svg" alt="">Benefits
+                                <i class="fa fa-angle-down"></i>
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="sidebar-list">
+                        <a href="/hire" class="menu_item">
+                            <p class="menu_text"><img src="./images/hireIcon.svg" alt="">Hire
+                                <i class="fa fa-angle-down"></i>
+                            </p>
+                        </a>
+                    </li>
+    
+                    <li class="sidebar-list">
+                        <a href="/report" class="menu_item">
+                            <p class="menu_text"><img src="./images/reportIcon.svg" alt="">Reports</p>
+                        </a>
+                    </li>
+    
+                    <li class="sidebar-list">
+                        <a href="/comp_detail" class="menu_item">           
+                            <p class="menu_text"><img src="./images/companyIcon.svg" alt="">Company Details</p>
+                        </a>
+                    </li>
+    
+                    <li class="sidebar-list">
+                        <a href="/wallet" class="menu_item">            
+                            <p class="menu_text"><img src="./images/walletIcon.svg" alt="">Wallet</p>
+                        </a>
+                    </li>
+    
+                    <li class="sidebar-list">
+                        <a href="/settings" class="menu_item">
+                            <p class="menu_text active-tab"><img src="./images/settingsIcon.svg" alt="">Settings </p>
+                        </a>
+                    </li>
+    
+                    <li class="sidebar-list">
+                        <a href="/contact" class="menu_item">
+                            <p class="menu_text"><img src="./images/contactIcon.svg" alt="">Contact Rovedana</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-------------------------------------SIDEBAR ENDS ----------------------------------------->
+
+        <section class="col-md-9 rest">
+
+            <!--------------------PAYROLL SETTING STARTS---------------------------------->
+            <div class="row">
+                <div class="setting-icon col-md-3">
+                    <div>
+                        <img src="./images/menuIcon.svg" alt="menuicon"/>
+                    </div>
+                    <div>
+                        <p class="main-setting-text">Settings</p>
+                    </div>
+                </div>
+                
+                <div class="setting-top-user col-md-9 text-right">
+                    <div class="mr-3">
+                        <p class="">Wallet Balance:
+                            <span class="text-warning">
+                                ₦-250.00
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="main-user">
+                        <div>
+                            <p class="main-user-name">Victor</p>
+                        </div>
+                        <div>
+                            <img src="./images/userImageIcon.png" alt="usr-img" class="user-image"/>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="row-2">
+                <!--------------------PAYROLL SETTING TABS STARTS---------------------------------->
+                <div class="col-md-3" id="tab-list">
+                    <ul id = "myTab"  class = "nav nav-tabs" role="tablist">
+                 
+                        <li class="">
+                            <a href="#um" class="nav-link" data-toggle = "tab">
+                                <div class="tab-list-item">
+                                    <div class="tab-img">
+                                        <img src="./images/usermanagericon.svg"/>
+                                    </div>
+
+                                    <div class="tab-text">
+                                        <p>User Managment</p>
+                                        <p>Manage admin or employee</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <hr class="hr-line"/>
+                        </li>
+                        
+                        <li class="">
+                            <a href="#mp" class="nav-link" data-toggle = "tab">
+                                <div class="tab-list-item">
+                                    <div class="tab-img">
+                                        <img src="./images/managepayrollicon.svg"/>
+                                    </div>
+
+                                    <div class="tab-text">
+                                        <p>Manage Payroll </p>
+                                        <p>Compensation & Deductibles</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <hr class="hr-line"/>
+                        </li>
+                        
+                        <li class="">
+                            <a href="#pb" class="nav-link" data-toggle = "tab">
+                                <div class="tab-list-item">
+                                    <div class="tab-img">
+                                        <img src="./images/planbillingicon.svg"/>
+                                    </div>
+
+                                    <div class="tab-text">
+                                        <p>Plan & Billing</p>
+                                        <p>Current plan, payroll transaction</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <hr class="hr-line"/>
+                        </li> 
+
+                        <li class="">
+                            <a href="#mc" class="nav-link" data-toggle = "tab">
+                                <div class="tab-list-item">
+                                    <div class="tab-img">
+                                        <img src="./images/managecompanyicon.svg"/>
+                                    </div>
+
+                                    <div class="tab-text">
+                                        <p>Manage Company</p>
+                                        <p>Basic information of company</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--------------------PAYROLL SETTING TABS ENDS---------------------------------->
+
+
+
+                <section id = "myTabContent" class="tab-content col-md-8">
+
+                    <!--------------------USER MANAGEMENT STARTS---------------------------------->
+                     <div class = "tab-pane fade row" id="um" role="tabpanel">
+                                <div class="um row">
+                                    <div class="um-main-text">
+                                        <h6>User Management</h6>
+                                        <p>
+                                            Your admins manage different tasks and information for
+                                            your entire company. They oversee specific areas within
+                                            payroll, HR, or benefits.
+                                            Admins can be employees or external collaborators.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    
+                                    <div class="col-md-5" id="myTab-head">
+                                        <ul  id = "myTab-2"  class = "nav nav-tabs">
+                                            <li >
+                                              <a href="#SS" data-toggle = "tab" class="nav-link admins">
+                                                <div class="one">
+                                                    <h6>Shirly Singley </h6>
+                                                    <p>debra.holt@example.com</p>
+                                                </div>
+                                                <div class="two">
+                                                    <button>Admin</button>
+                                                </div>
+                                              </a>  
+                                            </li>
+    
+                                            <li >
+                                                <a href="#IM" data-toggle = "tab" class="nav-link admins">
+                                                    <div class="one">
+                                                        <h6>Irving Merida </h6>
+                                                        <p>debra.holt@example.com</p>
+                                                    </div>
+                                                    <div class="two">
+                                                        <button>Admin</button>
+                                                    </div>
+                                                </a>
+                                            </li>
+    
+                                            <li >
+                                                <a href="#IR" data-toggle = "tab" class="nav-link admins">
+                                                    <div class="one">
+                                                        <h6>Isaura Resendiz </h6>
+                                                        <p>debra.holt@example.com</p>
+                                                    </div>
+                                                    <div class="two">
+                                                        <button>Admin</button>
+                                                    </div>
+                                                </a>
+                                            </li>
+    
+                                            <li >
+                                                <a href="#DL" data-toggle = "tab" class="nav-link admins">
+                                                    <div class="one">
+                                                        <h6>Darrick Larin </h6>
+                                                        <p>debra.holt@example.com</p>
+                                                    </div>
+                                                    <div class="two">
+                                                        <button>Admin</button>
+                                                    </div>
+                                                </a>
+                                            </li>
+    
+                                            <li >
+                                                <a href="#LW" data-toggle = "tab" class="nav-link admins">
+                                                    <div class="one">
+                                                        <h6>Lavonda Woolbright </h6>
+                                                        <p>debra.holt@example.com</p>
+                                                    </div>
+                                                    <div class="two">
+                                                        <button>Admin</button>
+                                                    </div>
+                                                </a>    
+                                            </li>  
+                                        </ul>
+                                        <li class="admin-add text-center mt-2" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                            <div>
+                                                <img src="./images/settingAddIco.svg"/>
+                                            </div>
+                                            <div class="ml-15">
+                                                <p>Add New Admin</p>
+                                            </div>     
+                                        </li>
+
+
+                                        <!------------------------------ Modal FOR ADD ADMIN STARTS------------------------------------->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <h5 class="modal-title" id="exampleModalLabel">Add New Admin</h5>
+                                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                  </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="">
+                
+                                                        <br/>
+                                                        <form>
+                                                            <div class="">
+                                                                <div class="employee">
+                                                                    <label class="emps-label">Employee Name</label>
+                                                                    <select name="cars">
+                                                                        <option value="volvo">Edmond Benson</option>
+                                                                        <option value="saab">Saab</option>
+                                                                        <option value="mercedes">Mercedes</option>
+                                                                        <option value="audi">Audi</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                
+                                                        <div class="switch-btn">
+                                                            <p class="switch-text">Permission</p>
+                                                            <div class="switch-and-text">
+                                                                <div>
+                                                                    <label class="switch">
+                                                                        <input type="checkbox" checked/>
+                                                                        <span class="slider round"/>
+                                                                    </label>
+                                                                </div>
+                
+                                                                <div class="ml-10">
+                                                                    <p>Give full access</p>
+                                                                </div>
+                                                            </div>
+                                                            <p class="switch-text">Payroll</p>
+                                                            <div class="switch-and-text">
+                                                                <div >
+                                                                    <label class="switch">
+                                                                        <input type="checkbox" checked/>
+                                                                        <span class="slider round"/>
+                                                                    </label>
+                                                                </div>
+                
+                                                                <div>
+                                                                    <p>Run Payroll</p>
+                                                                </div>
+                                                            </div>
+                
+                                                            <div class="switch-and-text">
+                                                                <div>
+                                                                    <label class="switch">
+                                                                        <input type="checkbox"/>
+                                                                        <span class="slider round"/>
+                                                                    </label>
+                                                                </div>
+                
+                                                                <div class="">
+                                                                    <p>View Payroll Reports & Tax Filing</p>
+                                                                </div>
+                                                            </div>
+                
+                                                            <p class="switch-text">HR</p>
+                                                            <div class="switch-and-text">
+                                                                <div>
+                                                                    <label class="switch">
+                                                                        <input type="checkbox" checked/>
+                                                                        <span class="slider round"/>
+                                                                    </label>
+                                                                </div>
+                
+                                                                <div class="">
+                                                                    <p>Manage People
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                   </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                  <button type="button" class="btn btn-left" data-dismiss="modal">Cancel</button>
+                                                  <button type="button" class="btn">Save changes</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                         <!---------------------------Modal FOR ADD ADMIN ENDS---------------------------------->
+
+
+                                    </div>
+                                    <div class="tab-content col-md-7" id="mySubTab">
+                                        <div class = "tab-pane fade" id="SS">
+                                            <div class="">
+                                                <div class="">
+                                                    <div class="">
+                                                        <div class="one mb-2">
+                                                            <h6>Shirly Singley </h6>
+                                                        </div>
+                                                        <div class="two">
+                                                            <button>Admin</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <br/>
+                                                <form>
+                                                    <div class="">
+                                                        <div class="employee">
+                                                            <label class="emps-label">Employee Name</label>
+                                                            <select name="cars">
+                                                                <option value="volvo">Edmond Benson</option>
+                                                                <option value="saab">Saab</option>
+                                                                <option value="mercedes">Mercedes</option>
+                                                                <option value="audi">Audi</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </form>
+        
+                                                <div class="switch-btn">
+                                                    <p class="switch-text">Permission</p>
+                                                    <div class="switch-and-text">
+                                                        <div>
+                                                            <label class="switch">
+                                                                <input type="checkbox" checked/>
+                                                                <span class="slider round"/>
+                                                            </label>
+                                                        </div>
+        
+                                                        <div class="ml-10">
+                                                            <p>Give full access</p>
+                                                        </div>
+                                                    </div>
+                                                    <p class="switch-text">Payroll</p>
+                                                    <div class="switch-and-text">
+                                                        <div >
+                                                            <label class="switch">
+                                                                <input type="checkbox" checked/>
+                                                                <span class="slider round"/>
+                                                            </label>
+                                                        </div>
+        
+                                                        <div>
+                                                            <p>Run Payroll</p>
+                                                        </div>
+                                                    </div>
+        
+                                                    <div class="switch-and-text">
+                                                        <div>
+                                                            <label class="switch">
+                                                                <input type="checkbox"/>
+                                                                <span class="slider round"/>
+                                                            </label>
+                                                        </div>
+        
+                                                        <div class="">
+                                                            <p>View Payroll Reports & Tax Filing</p>
+                                                        </div>
+                                                    </div>
+        
+                                                    <p class="switch-text">HR</p>
+                                                    <div class="switch-and-text">
+                                                        <div>
+                                                            <label class="switch">
+                                                                <input type="checkbox" checked/>
+                                                                <span class="slider round"/>
+                                                            </label>
+                                                        </div>
+        
+                                                        <div class="">
+                                                            <p>Manage People
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="del-admin">
+                                                    <div class="del-admin-img">
+                                                        <img src="./images/settingDelIcon.svg" />
+                                                    </div>
+                                                    <div class="del-admin-text">
+                                                        <p class="text-danger">Revoke admin access</p>
+                                                        <p>Remove admin from company</p>
+                                                    </div>
+                                                </div>
+                                                <div class="del-and-save-btn row">
+                                                    <div class="col-md-6">
+                                                        <button class="btn ">Remove</button>
+                                                    </div> 
+                
+                                                    <div  class="col-md-6">
+                                                        <button class="btn text-right">
+                                                            Save Settings
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <br/>  
+                                            </div>
+                                        </div>
+                                        <div class = "tab-pane fade" id="IM">IM</div>
+                                        <div class = "tab-pane fade" id="LW">LW</div>
+                                        <div class = "tab-pane fade" id="DL">DL</div>
+                                        <div class = "tab-pane fade" id="IR">IR</div>
+                                    </div>
+                                </div>    
+                    </div>
+                      <!--------------------USER MANAGEMENT ENDS---------------------------------->
+
+
+
+                      <!--------------------MANAGE PAYROLL STARTS---------------------------------->
+                    <div class = "tab-pane fade" id="mp" role="tabpanel">
+                        <div class="row" >
+                            <div class="">
+                                <div class="">
+                                    <div>
+                                        <h5>Payroll Setting</h5>
+                                        <hr>
+                                    </div>
+                                    <div class="mp-head">
+                                        <div>
+                                            <p>
+                                                What Day of The Month Do You Want To Run Payroll For this
+                                                Company?
+                                            </p>
+                                        </div><br>
+                                        <div class="">
+                                            <form>
+                                                <div class="">
+                                                    <div class="date">
+                                                        <label>Payroll Date</label>
+                                                        <input type="date"/>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div class="">
+                                        <p>Compensation</p><br/>
+
+                                        <input type="text" placeholder=" + Type to add more"/>
+
+                                        <div class="my-alert">
+                                            <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+                                                <strong>Basic</strong> 
+                                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+
+                                            <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+                                                <strong>Housing</strong> 
+                                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+
+                                            <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+                                                <strong>Transportation</strong> 
+                                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+
+                                            <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+                                                <strong>Reimbursement</strong> 
+                                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+
+                                            <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+                                                <strong>Leave</strong> 
+                                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="ded-text">
+                                        <p>Deductibles</p>
+                                        <p class="ded-item-sub">Some default has been selected but you can delete the
+                                            ones you don't need.</p>
+                                        <input type="text" placeholder=" + Type to add more"/>
+
+                                        <div class="my-alert">
+                                            <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+                                                <strong>Tax</strong> 
+                                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+
+                                            <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+                                                <strong>Pension</strong> 
+                                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+
+                                            <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+                                                <strong>NHF</strong> 
+                                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="del-and-save-btn">
+                                        <div class="">
+                                            <button class="btn text-right">
+                                                Save Settings
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br/>
+                            
+                            <br/>
+                        </div>        
+                    </div>
+                    <!--------------------MANAGE PAYROLL ENDS---------------------------------->
+
+
+
+                    <!--------------------PLAN & BILLING STARTS---------------------------------->
+                    <div class = "tab-pane fade" id="pb" role="tabpanel">
+                        <div id="">
+                            <div class="">
+                                <div class="pd">
+                                    <div class="plans row">
+                                        <div class="col-md-6">
+                                            <p>Your Current Plan</p>
+                                        </div>
+                                        <div class="text-right col-md-6">
+                                            <button class="btn ">Free Plan</button>
+                                            <span class="text-warning">Upgrade</span>
+                                        </div>
+                                    </div>
+                                    <hr class=""/>
+
+                                    <div class="plans row">
+                                        <div class="col-md-6">
+                                            <p>Payroll Transaction</p>
+                                        </div>
+                                        <div class="text-right col-md-6">
+                                            <p>2% (capped at ₦5000)</p>
+                                        </div>
+                                    </div>
+                                    <hr class=""/>
+
+                                    <div class="plans row">
+                                        <div class="col-md-6">
+                                            <p>Fee</p>
+                                        </div>
+                                        <div class="text-right col-md-6">
+                                            <p>₦0 x Number of Employees</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                        <!--------------------PLAN & BILLING ENDS---------------------------------->
+
+
+
+                        <!--------------------MANAGE COMPANY STARTS---------------------------------->
+                    <div class = "tab-pane fade" id="mc" role="tabpanel">
+                        <div class="row">
+                                    <div class="row mcTab">
+                                        <ul id = "mcTab" class = "nav navbar nav-tabs">
+                                            <li class = "active">
+                                               <a href = "#BI" data-toggle = "tab" class="nav-link">
+                                                  Basic Information
+                                               </a>
+                                            </li>
+                                            <li><a href = "#CL" data-toggle = "tab" class="nav-link">Company Level</a></li>
+                                            <li><a href = "#JT" data-toggle = "tab" class="nav-link">Job Title</a></li>
+                                        </ul>
+                                        
+                                    </div>
+                                    <hr>
+                                    <div class="tab-content" id="">                  
+                                        <div class = "tab-pane fade" id = "BI">
+                                              <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="input-div">
+                                                        <label>Company Name *</label>
+                                                        <input type="text" placeholder="Victor & Sons" />
+                                                    </div>
+                                                    <div class="input-div">
+                                                        <label>Registration Number *</label>
+                                                        <input type="text" placeholder="0987-1234" />
+                                                    </div>
+                                                    <div class="input-div">
+                                                        <label>State *</label>
+                                                        <select name="cars">
+                                                            <option value="volvo">Select Gender</option>
+                                                            <option value="saab">Saab</option>
+                                                            <option value="mercedes">Mercedes</option>
+                                                            <option value="audi">Audi</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="input-div">
+                                                        <label>Address *</label>
+                                                        <input type="text" placeholder="Nigeria" />
+                                                    </div>
+                                                    <div class="input-div">
+                                                        <label>Phone *</label>
+                                                        <input type="text" placeholder="0987654" />
+                                                    </div>
+                                                </div>
+        
+                                                <div class="col-md-6">
+                                                    <div class="input-div right-form-div">
+                                                        <label>Tax ID Number *</label>
+                                                        <input type="text" placeholder="234567s" />
+                                                    </div>
+                                                    <div class="input-div right-form-div">
+                                                        <label>Country *</label>
+                                                        <select name="cars">
+                                                            <option value="volvo">Select Gender</option>
+                                                            <option value="saab">Saab</option>
+                                                            <option value="mercedes">Mercedes</option>
+                                                            <option value="audi">Audi</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="input-div right-form-div">
+                                                        <label>City</label>
+                                                        <input type="text" placeholder="Enter City Name" />
+                                                    </div>
+                                                    <div class="input-div right-form-div">
+                                                        <label>Email *</label>
+                                                        <input type="text" placeholder="example@gmail.com" />
+                                                    </div>
+                                                    <div class="input-div right-form-div">
+                                                        <label>Industry *</label>
+                                                        <select name="cars">
+                                                            <option value="volvo">Oil</option>
+                                                            <option value="saab">Saab</option>
+                                                            <option value="mercedes">Mercedes</option>
+                                                            <option value="audi">Audi</option>
+                                                        </select>
+                                                    </div>
+                                                </div> 
+                                              </div>
+                                        </div>
+                                        <div id="CL" class="tab-pane fade">
+                                            
+                                        <div class="um row" id="cl-first-row">
+                                            <div class="um-main-text col-md-9">
+                                                <h6>Company Level</h6>
+                                                <p>
+                                                    What level heirachy exists in your company? Add them all by typing
+                                                </p>
+                                            </div>
+                                            <div class="um-main-text col-md-3">
+                                                <button class="btn btn-primary"  class="admin-add text-center mt-2" type="button" class="btn btn-primary" data-toggle="modal" data-target="#new-level">
+                                                    <img src="./images/settingAddIco.svg"/> New Level
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            
+                                            <div class="col-md-4" id="myTab-head">
+                                                <ul  id = "myTab-2-1"  class = "nav nav-tabs">
+                                                    <li >
+                                                    <a href="#Manager" data-toggle = "tab" class="nav-link admins company-level">
+                                                        <div class="one">
+                                                            <h6>Manager</h6>
+                                                            <p>Net Pay<span>₦145,000.00</span></p>
+                                                        </div>  
+                                                    </a>  
+                                                    </li>
+
+                                                    <li >
+                                                        <a href="#Sub-Engineer" data-toggle = "tab" class="nav-link admins company-level">
+                                                            <div class="one">
+                                                                <h6>Sub-Engineer</h6>
+                                                                <p>Net Pay<span>₦145,000.00</span></p>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+
+                                                    <li >
+                                                        <a href="#Manager" data-toggle = "tab" class="nav-link admins company-level">
+                                                            <div class="one">
+                                                                <h6>Manager</h6>
+                                                                <p>Net Pay<span>₦145,000.00</span></p>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <li class="admin-add text-center mt-2" type="button" class="btn btn-primary" data-toggle="modal" data-target="#new-level">
+                                                    <div>
+                                                        <img src="./images/settingAddIco.svg"/>
+                                                    </div>
+                                                    <div class="ml-15">
+                                                        <p>Add New Level</p>
+                                                    </div>     
+                                                </li>
+
+
+                                                <!-- ---------------------------- Modal FOR ADD NEW LEVEL STARTS------------------------------------->
+                                                <div class="modal fade" id="new-level" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel-1" aria-hidden="true">
+                                                    <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel-1">Add New Admin</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                           
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-left" data-dismiss="modal">Cancel</button>
+                                                            <button type="button" class="btn">Save changes</button>
+                                                        </div>
+                                                    </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <!---------------------------Modal FOR ADD NEW LEVEL ENDS-------------------------------- -->
+
+
+                                            </div>
+                                            <div class="tab-content col-md-8" id="">
+                                                <div class = "tab-pane fade" id="Manager">
+                                                    <div class="">
+                                                        <div class="right-text-div">
+                                                            <h6>Compensations</h6>
+                                                            <form class="row">
+                                                                <div class="col-md-6">
+                                                                    <div class="input-div-1">
+                                                                        <label>Basic</label>
+                                                                        <input type="text" placeholder="#172,000.00"/>
+                                                                    </div>
+                                                                    <div class="input-div-1">
+                                                                        <label>Transportation</label>
+                                                                        <input type="text" placeholder="#50,000"/>
+                                                                    </div>
+                                                                    <div class="input-div-1">
+                                                                        <label>Telephone</label>
+                                                                        <input type="text" placeholder="#50,000"/>
+                                                                    </div>
+                                                                    
+                                                                </div>
+
+                                                                <div class="col-md-6">
+                                                                    <div class="input-div-1 right-form-div">
+                                                                        <label>Housing</label>
+                                                                        <input type="text" placeholder="#50,000"/>
+                                                                    </div>
+                                                                    <div class="input-div-1 right-form-div">
+                                                                        <label>Reimbursement</label>
+                                                                        <input type="text" placeholder="#50,000"/>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+
+
+                                                            <h6 class="mt-20">Deductibles</h6>
+                                                            <form class="row">
+                                                                <div class="col-md-6">
+                                                                    <div class="input-div-1">
+                                                                        <label>Tax</label>
+                                                                        <input type="text" placeholder="# 50,000.00"/>
+                                                                    </div>
+                                                                    <div class="input-div-1">
+                                                                        <label>Pension</label>
+                                                                        <input type="text" placeholder="# 50,000"/>
+                                                                    </div>
+                                                                    
+                                                                </div>
+
+                                                                <div class="col-md-6">
+                                                                    <div class="input-div-1 right-form-div">
+                                                                        <label>Pension</label>
+                                                                        <input type="text" placeholder="50,000"/>
+                                                                    </div>
+                                                                    <div class="input-div-1 right-form-div">
+                                                                        <label>NSITF</label>
+                                                                        <input type="text" placeholder="50,000"/>
+                                                                    </div>
+                                                                </div>
+
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class = "tab-pane fade" id="IM">IM</div>
+                                                <div class = "tab-pane fade" id="LW">LW</div>
+                                                <div class = "tab-pane fade" id="DL">DL</div>
+                                                <div class = "tab-pane fade" id="IR">IR</div>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                    <div id="JT" class="tab-pane fade">
+                                        <div class="um row" id="cl-first-row">
+                                            <div class="um-main-text col-md-9">
+                                                <h6>Title</h6>
+                                                <p>
+                                                    What job titles exist in your company? Add them here and assign them to a staff
+                                                </p>
+                                            </div>
+                                            <div class="um-main-text col-md-3">
+                                                <button class="btn btn-primary" class="admin-add text-center mt-2" type="button" class="btn btn-primary" data-toggle="modal" data-target="#new-title">
+                                                    <img src="./images/settingAddIco.svg"/> New Level
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            
+                                            <div class="col-md-4" id="myTab-head">
+                                                <ul  id = "myTab-3"  class = "nav nav-tabs">
+                                                    <li >
+                                                    <a href="#Internship" data-toggle = "tab" class="nav-link admins company-level">
+                                                        <div class="one">
+                                                            <h6>Internship</h6>
+                                                            <p>Level<span> Sub-Engineer</span></p>
+                                                        </div>  
+                                                    </a>  
+                                                    </li>
+
+                                                    <li >
+                                                        <a href="#Sub-Engineer-1" data-toggle = "tab" class="nav-link admins company-level">
+                                                            <div class="one">
+                                                                <h6>Sub-Engineer</h6>
+                                                                <p>Net Pay<span>Manager</span></p>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <li class="admin-add text-center mt-2" type="button" class="btn btn-primary" data-toggle="modal" data-target="#new-title">
+                                                    <div>
+                                                        <img src="./images/settingAddIco.svg"/>
+                                                    </div>
+                                                    <div class="ml-15">
+                                                        <p>Add New Title</p>
+                                                    </div>     
+                                                </li>
+
+
+                                                <!-- ---------------------------- Modal FOR ADD NEW TITLE STARTS------------------------------------->
+                                                <div class="modal fade" id="new-title" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel-2" aria-hidden="true">
+                                                    <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel-2">Add New Admin</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class = "" id="internship">
+                                                                <div class="row">
+                                                                    <div class="col-md-6">
+                                                                        <label for="title">Title</label>
+                                                                        <input type="text" id="title" placeholder="Security Guard">
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <label for="level">Level</label>
+                                                                        <select name="level" id="level">
+                                                                            <option value="" disabled selected>Select Level</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-left" data-dismiss="modal">Cancel</button>
+                                                            <button type="button" class="btn">Save changes</button>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <!---------------------------Modal FOR ADD NEW LEVEL ENDS-------------------------------- -->
+
+
+                                            </div>
+                                            <div class="tab-content col-md-8" id="">
+                                                <div class = "tab-pane fade" id="Internship">
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <label for="title">Title</label>
+                                                            <input type="text" id="title" placeholder="Security Guard">
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <label for="level">Level</label>
+                                                            <select name="level" id="level">
+                                                                <option value="" disabled selected>Select Level</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div >
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class = "tab-pane fade" id="Sub-Engineer-1">IM</div>
+                                                <button class="btn btn-primary">
+                                                    Save Settings
+                                                </button>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                    </div>
+                        </div>
+                    </div>
+                        <!--------------------MANAGE COMPANY ENDS---------------------------------->
+                </section>
+            </div>
+            <!--------------------PAYROLL SETTING ENDS---------------------------------->
+        </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js" integrity="sha512-8qmis31OQi6hIRgvkht0s6mCOittjMa9GMqtK9hes5iEQBQE/Ca6yGE5FsW36vyipGoWQswBj/QBm2JR086Rkw==" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+           $('#myTab a:first').tab('show')
+        })
+        $(function () {
+           $('#myTab-2 a:first').tab('show')
+        })
+        $(function () {
+           $('#myTab-2-1 a:first').tab('show')
+        })
+        $(function () {
+           $('#myTab-3 a:first').tab('show')
+        })
+        $(function () {
+           $('#mc a:first').tab('show')
+        })
+     </script> 
+</body>
+</html>

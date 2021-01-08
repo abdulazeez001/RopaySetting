@@ -1,0 +1,504 @@
+body{
+    background-color:rgb(241, 240, 245);
+}
+
+a{
+    text-decoration: none !important;
+    font-weight:400;
+}
+li{
+    list-style-type: none;
+}
+li p{
+    font-size:14px;
+}
+.menu_text img{
+   margin-right: 20px;
+}
+ul{
+    padding-inline-start: 0px;
+}
+.sidebar{
+    box-shadow:0 0 1px grey ; 
+    z-index: 1000;
+    position:fixed;
+    background-color: #fff;
+    padding: 30px 20px;
+    padding-right: -50px;
+}
+#logo{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.sidebar-list{
+    margin:25px 40px;
+}
+.active-tab{
+    font-weight:500;
+    padding: 10px;
+    color: darkblue;
+    background-color:rgb(220, 242, 250);
+}
+.rest{
+    margin-left: 24.5%;
+    padding: 20px 40px;
+    /* background-color:rgb(241, 240, 245); */
+}
+.active-tab::after{
+    position: absolute;
+    content: "";
+    right: 0;
+    background-color: darkblue;
+    width: 5px;
+    height: 30px;
+}
+
+
+
+
+
+#row-2{
+    margin-top: 15px;
+}
+
+.setting-icon div,.setting-top-user div,.main-user div{
+    display: inline-block;
+}
+
+.main-setting-text,.main-user-name{
+    font-weight: bolder; 
+}
+
+
+#tab-list{
+    margin-right: 20px;
+    max-height: 20px;
+    padding: 0px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+#tab-list a{
+    color: black ;
+}
+
+.tab-list-item div{
+    display: inline-block;
+}
+hr {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+p {
+    word-wrap: break-word;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+h6 {
+    display: block;
+    font-size: 0.8em;
+    margin-block-start:0em;
+    margin-block-end:0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.tab-img{
+    margin-right: 10px;
+}
+.tab-text p:first-child{
+    font-weight: bold;
+    font-size: 12px;
+}
+.tab-text p:nth-child(2){
+    color: rgb(80, 113, 175) ;
+    font-size: 12px;
+}
+.tab-list-item{
+    padding: 10px 20px;
+}
+#myTab li{
+    width: 100%;
+}
+
+/* .active-1, */
+.nav-link.active{
+    /* color: darkblue !important; */
+    background-color:rgb(231, 237, 248) !important;
+    border: none !important;
+    border-radius: 5px 5px 0px 0px  !important;
+}
+#mcTab .nav-link.active, #mcTab .nav-link.active:hover{
+    color: darkblue !important;
+    background-color:white !important;
+    border-bottom: 2px solid #2B3A90 !important;
+    padding-bottom: 10px !important;
+    border-color: #fff #fff #fff;
+}
+#mcTab .nav-link:hover{
+  
+    border: none !important;
+   
+      
+} 
+.nav-link {
+    display: block;
+    padding: 0rem 0rem !important;
+}
+
+#um,#pb,#mp,#mc{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+.navbar{
+    padding: 0rem 1rem;
+}
+/* #um {
+    padding: 30px;
+    border-radius: 10px;
+} */
+#um p{
+    font-size: 12px;
+    color: rgb(80, 113, 175) ;
+}
+.two{
+    padding-top: 4px;
+}
+.two button{
+    width: 50px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    border-width: 0px;
+    border-radius: 6px;
+    color:  rgb(85, 132, 219);
+}
+
+.admins div{
+    margin:2px;
+    margin-right:5px;
+    display: inline-table;
+}
+#myTab{
+    background-color: #fff;
+    border-radius: 10px;
+}
+#myTab-2 li,#myTab-2-1 li,#myTab-3 li{
+    box-shadow:0 0 1px grey ;
+    margin-bottom: 7px;
+    border-width: 5px !important;
+    border-color: black !important;
+    background-color: rgb(247, 249, 253);
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+#myTab-2,#myTab-2-1,#myTab-3{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+#myTab-head,#mySubTab{
+    margin-top: 20px;
+}
+.admin-add div{
+    display: inline-block;
+}
+
+#mySubTab{
+    padding:10px;
+    box-shadow:0 0 1px grey ;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(228, 225, 225); 
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(131, 131, 131); 
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 43px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(238, 236, 236);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color:rgb(181, 195, 209);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background: #2B3A90;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2B3A90;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.employee label{
+    display: block;
+}
+.employee .emps-label{
+    font-size: 13px;
+    color: rgb(170, 169, 169);
+}
+.employee select{
+    padding-bottom:5px ;
+    border-width: 0px 0px 1px 0px;
+    border-color:  rgb(236, 233, 233);
+    font-size: 13px;
+    font-weight: 500;
+    width: 270px;
+}
+.switch-and-text div, .del-admin div{
+    display: inline-block;
+}
+.switch-btn p{
+    font-weight: 500;
+    color: black !important;
+}
+.switch-text{
+    font-weight: bold !important;
+    margin: 15px 0px 6px 0px;
+}
+.del-admin{
+    box-shadow:0 0 1px grey ;
+    border-radius: 10px;
+    border-color: black;
+    padding: 20px;
+    padding-left: 30px;
+}
+.del-admin-img{
+    margin-top: -5px;
+    margin-right: 15px;
+}
+
+
+.del-and-save-btn div{
+   display: inline-block;
+}
+.del-and-save-btn button{
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: darkblue;
+}
+.del-and-save-btn{
+    margin-top: 30px;
+}
+.modal-footer button{
+    color: white!important;
+    background-color: darkblue !important;
+}
+.modal-footer .btn-left{
+  float: left !important;
+}
+
+.my-alert div{
+    display: inline-block;
+    font-size: 14px; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+}
+.my-alert div button{
+    padding-top: 3px !important;
+}
+/* .my-alert{
+    max-width:100px;
+    max-height: 50px;
+    overflow: scroll;
+} */
+.mp-head div{
+    display: inline-block;
+}
+.mp-head p{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+#mp p{
+    font-size: 14px; 
+    font-weight: bold;
+}
+#mp input[type=text]{
+   width: 450px;
+   height: 40px;
+   font-size: 13px;
+   color:darkblue;
+   margin-bottom: 10px;
+   border-radius: 5px;
+   border-width: 0px;
+   background-color: rgb(226, 227, 231);
+}
+.date label, .ded-item-sub{
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    color: darkblue;
+    display: block;
+}
+.date input{
+    width: 250px;
+    margin-bottom: 9px;
+    padding-bottom: 3px;
+    font-size: 13px;
+    border-width: 0px 0px 1px 0px;
+    border-color: rgb(226, 227, 231) ;
+}
+.ded-text{
+    padding-top: 30px;
+}
+.ded-item-sub{
+    margin-bottom: 15px;
+}
+
+.plans div{
+    padding: 15px;
+    display: inline-block;
+}
+.pd, #Internship{
+    margin-bottom: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:0 0 1px grey ;
+}
+.pd p{
+    font-size: 13px;
+}
+.pd .text-right{
+    font-weight: bold;
+   
+}
+.pd button{
+    color: rgb(26, 190, 26);
+    background-color: rgb(227, 250, 227);
+    font-weight: 500;
+    border-width: 0px;
+}
+
+.mcTab li{
+   
+    display: inline-block;
+    margin-right: 85px;
+}
+.mcTab li a{
+    color: black !important;
+    font-weight: 500;
+}
+
+.input-div label, .input-div-1 label,#Internship label,#internship label {
+    margin: 10px;
+    color: rgb(161, 171, 204) ;
+    font-size: 13px;
+   display: block;
+}
+.input-div input,.input-div select{
+    width: 250px;
+    margin-bottom: 9px;
+    padding-bottom: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    border-width: 0px 0px 1px 0px;
+    border-color: rgb(226, 227, 231) ;
+}
+
+.company-level .one h6{
+    margin-bottom:3px;
+    color: black;
+}
+.company-level .one p{
+    color :rgb(161, 171, 204) ;
+    font-size: 11px;
+    font-weight: 500;
+}
+.company-level .one span{
+    margin-left: 3px;
+    color: rgb(26, 190, 26);
+}
+
+
+.company-level .one{
+    padding: 0px 8px;
+}
+#cl-first-row .um-main-text img{
+    color: #fff;
+}
+#cl-first-row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#cl-first-row .um-main-text p{
+    font-size: 12px;
+    color: rgb(161, 171, 204);
+}
+#cl-first-row .um-main-text button{
+    font-size: 11px !important;
+}
+
+.input-div-1 input,
+.input-div-1 select,
+#Internship input,
+#Internship select,
+#internship select,
+#internship input{
+    width: 150px;
+    margin-bottom: 9px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    border-width: 0px 0px 1px 0px;
+    border-color: rgb(226, 227, 231) ;
+}
+
