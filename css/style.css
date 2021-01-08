@@ -19,12 +19,18 @@ ul{
     padding-inline-start: 0px;
 }
 .sidebar{
-    box-shadow:0 0 1px grey ; 
+    position: fixed;
+    height: 100vh;
+    width: 300px;
     z-index: 1000;
-    position:fixed;
-    background-color: #fff;
+    background: #FFFFFF;
+    box-shadow: 2.3px 0px 6px rgba(94, 108, 132, 0.15);
+    /* box-shadow:0 0 1px grey ;  */
+    /* z-index: 1000; */
+    /* position:fixed; */
+    /* background-color: #fff; */
     padding: 30px 20px;
-    padding-right: -50px;
+    /* padding-right: -50px; */
 }
 #logo{
     margin-left: 20px;
@@ -41,7 +47,7 @@ ul{
 }
 .rest{
     margin-left: 24.5%;
-    padding: 20px 40px;
+    padding: 20px 20px;
     /* background-color:rgb(241, 240, 245); */
 }
 .active-tab::after{
